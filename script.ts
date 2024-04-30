@@ -66,7 +66,7 @@ function gerarNumeros() {
     }
   }
 }
-function bandeira(event: MouseEvent) {
+function bandeira(event: MouseEvent): boolean {
   let cell = <HTMLTableCellElement>event.target;
   let linha =
     cell.parentNode instanceof HTMLTableRowElement
